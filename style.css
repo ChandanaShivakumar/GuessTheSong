@@ -1,0 +1,89 @@
+
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid {
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #6a1d5d55;
+    padding: 10px 80px 60px 50px;
+    
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #20353ba2;
+    font-size: 60px;
+    text-align: center;
+    color: #f2fbff;
+}
+
+#score {
+    color: #202224;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family:serif;
+    font-size: 30px;
+    color: #f8fdff;
+    background-color: #293233b2;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+#b0, #b1, #b2, #b3 {
+    background-color: #a6fff8;
+    width: 250px;
+    font-size: 20px;
+    color: rgb(46, 44, 44);
+    border: 1px solid #1d3c6a65;
+    margin: 20px 30px 20px 50px;
+    padding: 20px 10px;
+}
+
+#b0:hover, #b1:hover, #b2:hover, #b3:hover {
+    cursor: pointer;
+    background-color: #5efaf2;
+}
+
+#b0:focus, #b1:focus, #b2:focus, #b3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-size: 25px;
+    color: rgb(16, 20, 19);
+}
+
+#load {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#refresh {
+    background-color: #00fff28c;
+    width:200px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.396);
+    margin: 20px 30px 20px 50px;
+    padding: 15px 5px;
+}
+
+#refresh:hover {
+    cursor: pointer;
+    background-color: #c2fffa;
+    border: 1px solid rgba(0, 0, 0, 0.396);
+    color: rgb(0, 0, 0);
+}
